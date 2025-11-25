@@ -1,8 +1,8 @@
-version: "3.8"
+ version: "3.8"
 services:
   web:
     build: .
-    image: yourdockerhubusername/simple-flask-app:local
+    image: pratikagalave/simple-flask-app:local
     ports:
       - "5000:5000"
     restart: unless-stopped
